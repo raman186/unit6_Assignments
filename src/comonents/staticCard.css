@@ -1,0 +1,15 @@
+#container{
+    /* border: 1px solid red; */
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+#container div{
+    /* border: 1px solid black; */
+    text-align: left;
+}
+ul.manuItem{
+    list-style-type: square;
+}
