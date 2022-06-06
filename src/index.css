@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  display: flex;
+}
+.profile{
+  width: 20%;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #cecece;
+}
+.profileImage{
+  width: 100%;
+}
+.ageButtons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.details{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.todo{
+  margin: 10px;
+}
