@@ -15,20 +15,21 @@ export default function Profile(){
     } else setage(age - 1);
     };
     const [Text,setText]=React.useState('Show')
-    
-   let hideData;
+    const [HideData, setHideData]=React.useState('')
+
    
     
     const extraDetails=()=>{
         if(Text==='Show'){
             setText('Hide');
-            hideData='Location: Hisar';
+            setHideData('Location: Hisar')
+           
             
         }
         
         else{
             setText('Show');
-            hideData='';
+            setHideData('')
 
         }
     }
@@ -49,7 +50,7 @@ export default function Profile(){
             <div className="details">
                 <button id="details" onClick={extraDetails}>{Text} More Details</button>
             </div>
-            <div><h2>{hideData}</h2></div>
+            <div><h2>{HideData}</h2></div>
             
         </>
     )
