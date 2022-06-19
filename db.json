@@ -1,0 +1,31 @@
+{
+  "employeeDetails": [
+    {
+      "name": "Sandeep",
+      "age": "35",
+      "address": "Delhi",
+      "department": "Science",
+      "salary": "25000",
+      "isMarried": false,
+      "id": 1
+    },
+    {
+      "name": "John",
+      "age": "25",
+      "address": "Pune",
+      "department": "Arts",
+      "salary": "35000",
+      "isMarried": true,
+      "id": 2
+    },
+    {
+      "name": "Vivek",
+      "age": "28",
+      "address": "Haryana",
+      "department": "Science",
+      "salary": "68000",
+      "isMarried": true,
+      "id": 3
+    }
+  ]
+}
