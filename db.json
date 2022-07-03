@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "eat",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "sleep",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "code",
+      "status": false,
+      "id": 3
+    }
+  ]
+}
