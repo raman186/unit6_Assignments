@@ -43,3 +43,15 @@ td {
   text-align: left;
   background-color: rgb(205, 235, 253);
 }
+
+
+  
+  .footer{
+    color: black;
+    font-size: smaller;
+
+    
+    position: fixed;
+    bottom: 2%;
+    left:2%;
+  }
